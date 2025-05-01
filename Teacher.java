@@ -9,7 +9,6 @@ public class Teacher implements EducationalEntityComponent {
         this.salary = salary;
     }
 
-    // Getters and setters
     public String getName() {
         return name;
     }
@@ -43,12 +42,12 @@ public class Teacher implements EducationalEntityComponent {
 
     @Override
     public int getStudentCount() {
-        return 0; // Teachers don't have students in this implementation
+        return 0; 
     }
 
     @Override
     public double calculateBudget() {
-        return salary; // Teacher's budget is their salary
+        return salary; 
     }
 }
 
