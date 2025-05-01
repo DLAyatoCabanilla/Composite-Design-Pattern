@@ -43,11 +43,11 @@ public class Student implements EducationalEntityComponent {
 
     @Override
     public int getStudentCount() {
-        return 1; // Each student counts as 1
+        return 1;
     }
 
     @Override
     public double calculateBudget() {
-        return -tuitionFee; // Student's budget is negative of their tuition fee
+        return -tuitionFee;
     }
 }
