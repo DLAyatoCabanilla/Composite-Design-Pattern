@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Abstract composite class
+// Abstract composite class for uniqueness
 public abstract class CompositeEducationalEntity implements EducationalEntityComponent {
     protected String name;
     protected List<EducationalEntityComponent> components = new ArrayList<>();
